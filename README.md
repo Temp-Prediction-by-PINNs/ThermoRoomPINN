@@ -44,6 +44,17 @@ where alpha is the thermal diffusivity of the medium (~ 2x10^-5 m^2/s for air, t
 
 ---
 
+## Reference Solver
+A 2D finite difference simulation (FTCS scheme) has been implemented to generate the reference solution.
+<img width="5400" height="480" alt="reference_snapshots" src="https://github.com/user-attachments/assets/0a2ab226-0d7f-43be-9f12-3e6e21d88b5c" />
+
+Watch the full animation of heat transfer: 
+https://github.com/user-attachments/assets/e122b4a4-eefe-47c0-beb5-b923bc814db3
+
+
+
+---
+
 ## Deliverables
 
 - Git repository (clean, documented code)
