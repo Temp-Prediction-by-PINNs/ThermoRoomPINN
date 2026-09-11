@@ -49,7 +49,10 @@ A 2D finite difference simulation (FTCS scheme) has been implemented to generate
 <img width="5400" height="480" alt="reference_snapshots" src="https://github.com/user-attachments/assets/0a2ab226-0d7f-43be-9f12-3e6e21d88b5c" />
 
 Watch the full animation of heat transfer: 
-https://github.com/user-attachments/assets/e122b4a4-eefe-47c0-beb5-b923bc814db3
+
+
+https://github.com/user-attachments/assets/0f8b2b7e-8de0-474f-aa60-96420e2278ea
+
 
 
 
