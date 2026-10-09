@@ -58,6 +58,18 @@ https://github.com/user-attachments/assets/0f8b2b7e-8de0-474f-aa60-96420e2278ea
 
 ---
 
+## Interactive demonstrator (step 5)
+
+A Gradio app (`ThermoPINN/app_gradio.py`) lets you vary the hot object (center, mean radius, aspect ratio, orientation), browse the predicted heat map with a time slider, and compare it to the finite-difference reference (error maps, MSE, relative L2). It reuses the trained model `pinn_heat2d.pt` and the existing PINN / reference-solver code.
+
+```bash
+pip install gradio torch numpy matplotlib
+cd ThermoPINN
+python app_gradio.py      # then open http://127.0.0.1:7860
+```
+
+---
+
 ## Deliverables
 
 - Git repository (clean, documented code)

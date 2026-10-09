@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/info/etu/m2/e2103064/ThermoRoomPINN/ThermoPINN/app_gradio.py", line 257, in <module>
+    build_ui().launch()
+    ~~~~~~~~~~~~~~~~~^^
+  File "/info/etu/m2/e2103064/miniconda3/lib/python3.14/site-packages/gradio/blocks.py", line 3565, in launch
+    raise Exception(
+        f"Couldn't start the app because '{resp.url}' failed (code {resp.status_code}). Check your network or proxy settings to ensure localhost is accessible."
+    )
+Exception: Couldn't start the app because 'http://127.0.0.1:7860/gradio_api/startup-events' failed (code 403). Check your network or proxy settings to ensure localhost is accessible.
