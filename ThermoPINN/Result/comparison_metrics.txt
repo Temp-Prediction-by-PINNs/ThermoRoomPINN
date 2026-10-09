@@ -1,0 +1,14 @@
+Comparaison PINN vs solution de reference
+===========================================
+Nombre d'instants compares : 63
+Grille spatiale             : 60 x 60
+
+MSE globale                 : 0.3291 C^2
+RMSE globale                : 0.5737 C
+Erreur L2 relative globale  : 2.2097%
+Erreur absolue max          : 29.8944 C
+
+MSE au 1er instant (t=0.0s)   : 13.2710 C^2
+MSE au dernier instant (t=601.1s) : 0.0701 C^2
+Erreur L2 rel. au 1er instant    : 12.5818%
+Erreur L2 rel. au dernier instant: 1.0668%
