@@ -1,0 +1,31 @@
+# Fichiers d'environnement et secrets
+.env
+.env.local
+.env.*.local
+*.env
+
+# Environnements virtuels Python
+.venv/
+env/
+venv/
+ENV/
+*.venv
+
+# Système et temporaires
+.DS_Store
+.temp/
+Thumbs.db
+
+# Cache Python
+__pycache__/
+*.pyc
+
+# Données et modèles (fichiers lourds)
+*.npz
+*.pt
+*.pth
+
+# Logs d'exécution HPC / Terminaux
+*.err
+*.out
+*.log
